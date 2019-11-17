@@ -1,0 +1,27 @@
+Package: VividR
+Type: Package
+Title: VIsualisation of Variable Importance Differences
+Version: 0.1.0
+Author: Connor Smith
+Maintainer: Connor Smith <connor.smith@sydney.edu.au>
+Description: A package to perform feature selection and visualisation using variabe importance differences for Generalised Linear Models
+License: Unpublished
+Encoding: UTF-8
+LazyData: FALSE
+Imports:
+  dendsort,
+  dplyr,
+  furrr,
+  future,
+  glmnet,
+  grDevices,
+  lattice,
+  latticeExtra,
+  magrittr,
+  matrixStats,
+  parallel,
+  stats,
+  stringr
+Suggests:
+  tidyverse
+RoxygenNote: 6.1.1
